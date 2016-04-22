@@ -7,11 +7,42 @@
 </head>	
 
 <body>
+<style>
+div {
+	width: 50%;
+	float: left;
+}
+	h1 {
+		color: blue;
+	}
+	p {
+		margin-top: 50px;
+	}
+	p, ul, ol {
+		color: green;
+	}
+	img{
+		width: 100%;
+	}
+	#heading {
+		font-size: 50px;
+	}
+	.paragraph {
+		font-style: italic;
+	}
+	p.paragraph.introduction.featured {
+		padding-left: 20px;
+	}
+	div ul li {
+		background-color: red;
+	}
+</style>
 
 	<div>
-		<h1>This is an amazing page</h1>
+		<h1 id="heading">This is an amazing page</h1>
 		<!-- This STARTS a article -->
-		<p>Lorem ipsum will be smaller and will be less thick</p>
+		<p class="paragraph introduction featured">Lorem ipsum will be smaller and will be less thick</p>
+		<p class="paragraph"> the second para...</p>
 		<!-- this Ends an article -->
 		<ul>
 			<li>Number one</li>
